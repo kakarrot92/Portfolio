@@ -1,100 +1,96 @@
-* {
-  box-sizing: border-box;
+
+
+@media only screen and (max-width: 500px) {
+  header {
+    width: 80%;
+    margin: auto;
+  }
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+  }
+  .title {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 28px;
+  }
+
+  h2 {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 52px;
+    text-align: center;
+  }
+
+  .first {
+    color: #172b4d;
+  }
+
+  .second {
+    color: #36b37f;
+  }
+
+  .hero {
+    margin-bottom: 50px;
+  }
+
+  p {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+    color: #172b4d;
+  }
+
+  .vector-1 {
+    position: absolute;
+    left: 17.83%;
+    right: 69.99%;
+    top: 1.77%;
+    bottom: 96.15%;
+  }
+
+  .cube {
+    position: absolute;
+    left: 466.94px;
+    top: 301.33px;
+  }
+
+  .frame {
+    position: relative;
+    left: 375.31px;
+    top: 80.23px;
+    transform: rotate(-4.24deg);
+  }
+
+  .cube-2 {
+    position: absolute;
+    height: 79.49px;
+    left: 0.29px;
+    top: 550.01px;
+    opacity: 0.88;
+  }
+
+  .cube-3 {
+    position: absolute;
+    width: 28.45px;
+    height: 30.69px;
+    left: 47.56px;
+    top: 232.36px;
+  }
+
+  .links {
+    margin-top: 20px;
+    width: 70%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
 }
-    
-    
-    
-    @media only screen and (max-width: 500px) {
-        header {
-            width: 80%;
-            margin: auto;
-          }
-          .navbar {
-            display: flex;
-            justify-content: space-between;
-          }
-          .title {
-            font-family: Inter;
-            font-style: normal;
-            font-weight: 600;
-            font-size: 20px;
-            line-height: 28px;
-          }
-          h2 {
-            font-family: Inter;
-            font-style: normal;
-            font-weight: bold;
-            font-size: 40px;
-            line-height: 52px;
-            text-align: center;
-          }
-          .first {
-            color: #172b4d;
-          }
-          .second {
-            color: #36b37f;
-          }
-          .hero {
-            margin-bottom: 50px;
-          }
-        
-          p {
-            font-family: Inter;
-            font-style: normal;
-            font-weight: normal;
-            font-size: 20px;
-            line-height: 28px;
-            text-align: center;
-            color: #172b4d;
-          }
-          .vector-1 {
-            position: absolute;
-            left: 17.83%;
-            right: 69.99%;
-            top: 1.77%;
-            bottom: 96.15%;
-          }
-          .cube {
-            position: absolute;
-            left: 466.94px;
-            top: 301.33px;
-          }
-        
-          .frame {
-            position: relative;
-            left: 375.31px;
-            top: 80.23px;
-        
-            transform: rotate(-4.24deg);
-          }
-        
-          .cube-2 {
-            position: absolute;
-            height: 79.49px;
-            left: 0.29px;
-            top: 550.01px;
-        
-            opacity: 0.88;
-          }
-        
-          .cube-3 {
-            position: absolute;
-            width: 28.45px;
-            height: 30.69px;
-            left: 47.56px;
-            top: 232.36px;
-          }
-          .links {
-            margin-top: 20px;
-            width: 70%;
-            margin: auto;
-            display: flex;
-            align-items: center;
-            justify-content: space-around;
-          }
-      }
-
-  
-    
-
-
