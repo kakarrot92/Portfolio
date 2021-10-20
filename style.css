@@ -1,16 +1,17 @@
 
-
 @media only screen and (max-width: 500px) {
   header {
     width: 80%;
     margin: auto;
   }
+
   .navbar {
     display: flex;
     justify-content: space-between;
   }
+
   .title {
-    font-family: Inter;
+    font-family: Inter, sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 20px;
@@ -18,7 +19,7 @@
   }
 
   h2 {
-    font-family: Inter;
+    font-family: Inter, sans-serif;
     font-style: normal;
     font-weight: bold;
     font-size: 40px;
@@ -39,7 +40,7 @@
   }
 
   p {
-    font-family: Inter;
+    font-family: Inter, sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 20px;
@@ -86,7 +87,6 @@
   }
 
   .links {
-    margin-top: 20px;
     width: 70%;
     margin: auto;
     display: flex;
