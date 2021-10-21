@@ -1,5 +1,4 @@
 
-@media only screen and (max-width: 500px) {
   header {
     width: 80%;
     margin: auto;
@@ -18,7 +17,7 @@
     line-height: 28px;
   }
 
-  h2 {
+  h1 {
     font-family: Inter, sans-serif;
     font-style: normal;
     font-weight: bold;
@@ -36,7 +35,11 @@
   }
 
   .hero {
-    margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    background-image: url(/images/background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
   }
 
   p {
@@ -49,43 +52,6 @@
     color: #172b4d;
   }
 
-  .vector-1 {
-    position: absolute;
-    left: 17.83%;
-    right: 69.99%;
-    top: 1.77%;
-    bottom: 96.15%;
-  }
-
-  .cube {
-    position: absolute;
-    left: 466.94px;
-    top: 301.33px;
-  }
-
-  .frame {
-    position: relative;
-    left: 375.31px;
-    top: 80.23px;
-    transform: rotate(-4.24deg);
-  }
-
-  .cube-2 {
-    position: absolute;
-    height: 79.49px;
-    left: 0.29px;
-    top: 550.01px;
-    opacity: 0.88;
-  }
-
-  .cube-3 {
-    position: absolute;
-    width: 28.45px;
-    height: 30.69px;
-    left: 47.56px;
-    top: 232.36px;
-  }
-
   .links {
     width: 70%;
     margin: auto;
@@ -93,4 +59,8 @@
     align-items: center;
     justify-content: space-around;
   }
-}
+
+  ul li {
+    list-style: none;
+  }
+
