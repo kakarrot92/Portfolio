@@ -9,7 +9,7 @@ Portfolio
 
  # PR description:
  >Simple html file that contain a headline
-![screenshot](/portfolio.PNG)
+![screenshot](/mobile-portfolio.PNG)
 
 First section of my mobile version portfolio
 
