@@ -94,15 +94,19 @@ ul li {
   justify-items: center;
   align-items: center;
 }
-
-.float-1 {
-  float: right;
-  width: 17%;
+.about {
+  position: relative;
 }
-
+.float-1 {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
 .float-2 {
-  float: left;
-  width: 17%;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  margin-bottom: 15px;
 }
 
 .card {
@@ -189,7 +193,6 @@ ul li {
   align-items: center;
   text-align: center;
   color: #172b4d;
-  margin-left: 45px;
 }
 
 .tittle li h2 {
