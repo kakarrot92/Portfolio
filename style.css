@@ -54,7 +54,7 @@ p {
 
 .links {
   width: 70%;
-  margin: 58px 0px;
+  margin: 58px 0;
   display: flex;
   align-items: center;
   justify-content: space-around;
@@ -79,7 +79,7 @@ ul li {
 }
 
 .recent-work {
-  font-family: Inter;
+  font-family: Inter, sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 40px;
@@ -126,7 +126,7 @@ ul li {
 
 .tittle {
   padding: 0;
-  font-family: Inter;
+  font-family: Inter, sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 16px;
@@ -142,11 +142,6 @@ ul li {
   margin-top: 0;
 }
 
-.tittle li h2 {
-  margin: 12px 0;
-  color: #3a4a42;
-}
-
 .list {
   display: flex;
   padding: 0;
@@ -157,7 +152,7 @@ ul li {
 .list li {
   padding: 8px 12px;
   align-items: center;
-  font-family: Inter;
+  font-family: Inter, sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 12px;
@@ -176,8 +171,8 @@ ul li {
   padding: 5px;
   background: #36b37f;
   border-radius: 4px;
-  color: #ffffff;
-  font-family: Inter;
+  color: #fff;
+  font-family: Inter, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 17px;
@@ -186,7 +181,7 @@ ul li {
 }
 
 .about h2 {
-  font-family: Inter;
+  font-family: Inter, sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 40px;
@@ -197,8 +192,13 @@ ul li {
   margin-left: 45px;
 }
 
+.tittle li h2 {
+  margin: 12px 0;
+  color: #3a4a42;
+}
+
 .about p {
-  font-family: Inter;
+  font-family: Inter, sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 20px;
@@ -228,7 +228,7 @@ ul li {
 }
 
 .last-section h3 {
-  font-family: Inter;
+  font-family: Inter, sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 24px;
@@ -241,7 +241,7 @@ ul li {
   font-weight: 600;
   font-size: 12px;
   line-height: 16px;
-  background: #ffffff;
+  background: #fff;
   letter-spacing: 0.03em;
   color: #36b37e;
 }
