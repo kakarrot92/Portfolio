@@ -8,7 +8,7 @@ header {
   justify-content: space-between;
 }
 
-.title {
+.logo {
   font-family: Inter, sans-serif;
   font-style: normal;
   font-weight: 600;
@@ -54,7 +54,7 @@ p {
 
 .links {
   width: 70%;
-  margin: auto;
+  margin: 58px 0px;
   display: flex;
   align-items: center;
   justify-content: space-around;
@@ -62,4 +62,186 @@ p {
 
 ul li {
   list-style: none;
+}
+
+/* Work section -- */
+.work-section {
+  text-align: center;
+}
+
+.arrow {
+  margin: 40px 0;
+}
+
+.work-section h2 {
+  text-align: center;
+  align-items: center;
+}
+
+.recent-work {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 52px;
+  color: #172b4d;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(12rem, 26rem));
+  grid-gap: 30px;
+  justify-items: center;
+  align-items: center;
+}
+
+.float-1 {
+  float: right;
+  width: 17%;
+}
+
+.float-2 {
+  float: left;
+  width: 17%;
+}
+
+.card {
+  background-image: url(images/Card-pic.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-position: center;
+  width: 327px;
+  height: 474px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  border: 1px solid #d0d9d4;
+  border-radius: 8px;
+}
+
+.card-body {
+  background-color: white;
+  border-radius: 8px;
+}
+
+.tittle {
+  padding: 0;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 32px;
+}
+
+.tech {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 0;
+  margin-top: 0;
+}
+
+.tittle li h2 {
+  margin: 12px 0;
+  color: #3a4a42;
+}
+
+.list {
+  display: flex;
+  padding: 0;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.list li {
+  padding: 8px 12px;
+  align-items: center;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 16px;
+  background: #ebf0ee;
+  border-radius: 4px;
+  margin: 3px 3px;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+}
+
+.card-btn {
+  padding: 5px;
+  background: #36b37f;
+  border-radius: 4px;
+  color: #ffffff;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+  margin-bottom: 16px;
+}
+
+.about h2 {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 52px;
+  align-items: center;
+  text-align: center;
+  color: #172b4d;
+  margin-left: 45px;
+}
+
+.about p {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 32px;
+  text-align: center;
+}
+
+.last-section {
+  background-image: url(images/Card-pic.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-position: center;
+  width: 327px;
+  height: 352px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border: 1px solid #d0d9d4;
+  border-radius: 8px;
+  box-sizing: border-box;
+  align-items: center;
+}
+
+.last-section img {
+  width: 100px;
+  height: 100px;
+}
+
+.last-section h3 {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 32px;
+  color: #344563;
+}
+
+.last-section ul li {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 16px;
+  background: #ffffff;
+  letter-spacing: 0.03em;
+  color: #36b37e;
 }
