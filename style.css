@@ -1,6 +1,7 @@
 header {
   width: 80%;
   margin: auto;
+  margin-bottom: 130px;
 }
 
 .navbar {
@@ -64,9 +65,25 @@ ul li {
   list-style: none;
 }
 
+.arrow-section {
+  background-image: url("images/arrow.png");
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 8px;
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  left: calc(50% - 40px/2 + 0.5px);
+  bottom: 4px;
+  top: 680px;
+}
+
 /* Work section -- */
 .work-section {
   text-align: center;
+  align-items: center;
 }
 
 .arrow {
@@ -76,6 +93,7 @@ ul li {
 .work-section h2 {
   text-align: center;
   align-items: center;
+  margin-top: 50px;
 }
 
 .recent-work {
