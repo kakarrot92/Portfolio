@@ -89,12 +89,9 @@ ul li {
 
 .grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(12rem, 26rem));
+  grid-template-columns: repeat(auto-fit, minmax(12rem, 29rem));
   grid-gap: 30px;
   justify-items: center;
-  align-items: center;
-  display: flex;
-  flex-direction: column;
 }
 
 .about {
