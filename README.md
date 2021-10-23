@@ -9,9 +9,11 @@ Portfolio
 
  # PR description:
  >Simple html file that contain a headline
-![screenshot](/mobile-portfolio.PNG)
+![screenshot](/work-section.png)
+![screenshot](/about-me.png)
 
-First section of my mobile version portfolio
+
+Second section of my portfolio
 
 ## Built With
 

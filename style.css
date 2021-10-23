@@ -93,6 +93,8 @@ ul li {
   grid-gap: 30px;
   justify-items: center;
   align-items: center;
+  display: flex;
+  flex-direction: column;
 }
 
 .about {
