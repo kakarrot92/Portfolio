@@ -1,17 +1,22 @@
-# Portfolio-setup-and-mobile-version-skeleton
-My portfolio
-
 
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
-Portfolio 
+# Portfolio-mobile-version
+
 
  # PR description:
- >Simple html file that contain a headline
-![screenshot](/mobile-portfolio.PNG)
+ This is my first try to make my portfolio
+ Added some sections: 
+ 1. Work-section
 
-First section of my mobile version portfolio
+![screenshot](/work-section.png)
+
+2. About-me section
+
+![screenshot](/about-me.png)
+
+
+
 
 ## Built With
 
