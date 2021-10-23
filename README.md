@@ -8,7 +8,6 @@ My portfolio
 Portfolio 
 
  # PR description:
- >Simple html file that contain a headline
 ![screenshot](/work-section.png)
 ![screenshot](/about-me.png)
 
