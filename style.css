@@ -61,6 +61,7 @@ p {
   justify-content: center;
   padding: 0;
 }
+
 .icons {
   margin-left: 15px;
   margin-right: 15px;
@@ -209,7 +210,7 @@ ul li {
 }
 
 .button:hover {
-  box-shadow: 0px 8px 16px rgba(54, 179, 127, 0.24);
+  box-shadow: 0 8px 16px rgba(54, 179, 127, 0.24);
 }
 
 .button:active {
@@ -341,11 +342,10 @@ ul li {
 .textArea {
   background: #fff;
   border: 1px solid #60c095;
-  border-radius: 4px;
   height: 114px;
   width: 327px;
-  left: 0px;
-  top: 0px;
+  left: 0;
+  top: 0;
   border-radius: 4px;
   box-sizing: border-box;
   padding: 16px;
