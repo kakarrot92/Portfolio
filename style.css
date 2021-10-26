@@ -295,6 +295,7 @@ ul li {
   line-height: 52px;
   color: #172b4d;
 }
+
 .contact-form {
   display: flex;
   flex-direction: column;
@@ -302,10 +303,10 @@ ul li {
 }
 
 .fullName {
-  width:327px;
+  width: 327px;
   height: 48px;
   border-radius: 4px;
-  border:1px solid #d0d9d4;
+  border: 1px solid #d0d9d4;
   font-family: Inter, sans-serif;
   font-style: normal;
   font-weight: normal;
@@ -315,11 +316,11 @@ ul li {
   box-sizing: border-box;
 }
 
-#email{
-  width:327px;
+#email {
+  width: 327px;
   height: 48px;
   border-radius: 4px;
-  border:1px solid #d0d9d4;
+  border: 1px solid #d0d9d4;
   font-family: Inter, sans-serif;
   font-style: normal;
   font-weight: normal;
@@ -330,8 +331,8 @@ ul li {
 }
 
 .textArea {
-  background: #FFFFFF;
-  border: 1px solid #60C095;
+  background: #fff;
+  border: 1px solid #60c095;
   border-radius: 4px;
   height: 114px;
   width: 327px;
