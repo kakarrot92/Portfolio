@@ -54,11 +54,16 @@ p {
 }
 
 .links {
-  width: 70%;
+  width: 100%;
   margin: 58px 0;
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: center;
+  padding: 0;
+}
+.icons {
+  margin-left: 15px;
+  margin-right: 15px;
 }
 
 ul li {
@@ -307,8 +312,9 @@ ul li {
   font-size: 15px;
   line-height: 24px;
   padding-left: 16px;
-  
+  box-sizing: border-box;
 }
+
 #email{
   width:327px;
   height: 48px;
@@ -320,8 +326,10 @@ ul li {
   font-size: 15px;
   line-height: 24px;
   padding-left: 16px;
+  box-sizing: border-box;
 }
-.textArea{
+
+.textArea {
   background: #FFFFFF;
   border: 1px solid #60C095;
   border-radius: 4px;
@@ -330,5 +338,11 @@ ul li {
   left: 0px;
   top: 0px;
   border-radius: 4px;
-
-  }
+  box-sizing: border-box;
+  padding: 16px;
+  font-family: Inter, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 24px;
+}
