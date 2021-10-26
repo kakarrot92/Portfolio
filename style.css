@@ -306,4 +306,29 @@ ul li {
   font-weight: normal;
   font-size: 15px;
   line-height: 24px;
+  padding-left: 16px;
+  
 }
+#email{
+  width:327px;
+  height: 48px;
+  border-radius: 4px;
+  border:1px solid #d0d9d4;
+  font-family: Inter, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 24px;
+  padding-left: 16px;
+}
+.textArea{
+  background: #FFFFFF;
+  border: 1px solid #60C095;
+  border-radius: 4px;
+  height: 114px;
+  width: 327px;
+  left: 0px;
+  top: 0px;
+  border-radius: 4px;
+
+  }
