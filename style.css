@@ -4,9 +4,21 @@ header {
   margin-bottom: 130px;
 }
 
+.nav-list {
+  display: flex;
+  justify-content: center;
+}
+
+.nav-list li {
+  margin-right: 30px;
+}
+.nav-list a {
+  text-decoration: none;
+}
 .navbar {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 .logo {
