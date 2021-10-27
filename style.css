@@ -295,12 +295,11 @@ ul li {
   height: 352px;
   display: flex;
   flex-direction: column;
-  justify-content: center;
   border: 1px solid #d0d9d4;
   border-radius: 8px;
   box-sizing: border-box;
   align-items: center;
-  justify-items: center;
+  padding: 10px;
 }
 
 .last-section img {
