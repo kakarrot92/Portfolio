@@ -12,6 +12,10 @@ header {
   justify-content: center;
 }
 
+ul li {
+  list-style: none;
+}
+
 .nav-list li {
   padding: 10px;
   padding-bottom: 0;
@@ -30,7 +34,6 @@ header {
 .navbar {
   display: flex;
   justify-content: space-between;
-  background-color: #fff;
   width: 100%;
   margin: 0;
   background: transparent;
@@ -99,23 +102,23 @@ p {
   margin-right: 15px;
 }
 
-ul li {
-  list-style: none;
-}
-
 .arrow-section {
   background-color: transparent;
   border: none;
 }
+
 .links-header {
   display: flex;
   justify-content: center;
   align-items: center;
 }
+
 .links-header li {
   margin-right: 30px;
 }
+
 /* Work section -- */
+
 .work-section {
   text-align: center;
   align-items: center;
@@ -143,7 +146,7 @@ ul li {
 .grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(16rem, 0,3rem));
-  grid-gap: 15px ;
+  grid-gap: 15px;
   justify-content: center;
   margin: 80px auto;
   align-items: center;
@@ -329,8 +332,6 @@ ul li {
   color: #36b37e;
 }
 
-
-
 .form-text {
   text-align: center;
   font-family: Inter, sans-serif;
@@ -408,7 +409,7 @@ ul li {
   align-items: center;
 }
 
-.bot-nav  ul{
+.bot-nav  ul {
   margin: 0;
   padding: 0;
   display: flex;
@@ -419,8 +420,6 @@ ul li {
   margin: 0;
 } 
 
-
-
 @media only screen and (min-width: 820px) {
 
   .navbar {
@@ -429,7 +428,7 @@ ul li {
 
   .bot-nav {
     width: 100%;
-    border-top: 1px solid #dfe1e6;;
+    border-top: 1px solid #dfe1e6;
   }
 
   .nav-list li {
@@ -452,7 +451,7 @@ ul li {
   }
 
   .first {
-    font-family: Inter,sans-serif;
+    font-family: Inter, sans-serif;
     font-style: normal;
     font-weight: 800;
     font-size: 48px;
@@ -464,7 +463,7 @@ ul li {
   }
 
   .second {
-    font-family: Inter,sans-serif;
+    font-family: Inter, sans-serif;
     font-style: normal;
     font-weight: 800;
     font-size: 48px;
@@ -488,7 +487,7 @@ ul li {
   }
 
   .hero p {
-    font-family: Inter,sans-serif;
+    font-family: Inter, sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 20px;
@@ -499,7 +498,7 @@ ul li {
   .grid {
     max-width: 1000px;
     display: grid;
-    grid-template-columns:repeat(2, 1fr) ;
+    grid-template-columns: repeat(2, 1fr);
     grid-gap: 30px;
     justify-content: space-around;
     align-items: center;
@@ -558,7 +557,7 @@ ul li {
     align-items: center;
   }
 
-  .bot-nav  ul{
+  .bot-nav  ul {
     margin: 0;
     padding: 0;
     display: flex;
@@ -568,13 +567,12 @@ ul li {
   .bot-nav p {
     margin: 0;
   }
-
 }
 
 @media only screen and (min-width: 1180px) {
   .grid {
     display: grid;
-    grid-template-columns:repeat(3, 1fr) ;
+    grid-template-columns: repeat(3, 1fr);
     grid-gap: 30px;
     justify-content: space-around;
     align-items: center;
@@ -589,7 +587,6 @@ ul li {
     text-align: center;
     align-items: flex-start;
     margin: auto;
-    justify-content: space-around;
     background-image: url(images/form-pic.png);
     background-repeat: no-repeat;
     background-size: cover;
@@ -618,7 +615,7 @@ ul li {
     display: none;
   }
 
-  .bot-nav  ul{
+  .bot-nav ul {
     margin: 0;
     padding: 0;
     display: flex;
