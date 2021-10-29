@@ -21,13 +21,16 @@ Finished desktop version of my portfolio
 
 ![screenshot](/Header-desktop.png)
 
+2. Work section
 
-2. About-me section
+![screenshot](/Work-desktop.png)
 
-![screenshot](/Work-section.png)
+3. About-me section
+
+![screenshot](/About-me-desktop.png)
 
 
-3. From section
+4. From section
 
 ![screenshot](/Form.png)
 
