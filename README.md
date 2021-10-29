@@ -15,7 +15,21 @@
 
 ![screenshot](/about-me.png)
 
+# Portfolio Desktop version
+Finished desktop version of my portfolio
+1. Header section
 
+![screenshot](/Header-desktop.png)
+
+
+2. About-me section
+
+![screenshot](/Work-section.png)
+
+
+3. From section
+
+![screenshot](/Form.png)
 
 
 ## Built With

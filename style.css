@@ -512,9 +512,10 @@ ul li {
   }
 
   .about {
-    width: 100%;
+    width: 1500px;
     margin: auto;
   }
+
   .about p {
     width: 920px;
     height: 96px;
