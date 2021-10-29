@@ -30,7 +30,7 @@ Finished desktop version of my portfolio
 ![screenshot](/About-me-desktop.png)
 
 
-4. From section
+4. Form section
 
 ![screenshot](/Form.png)
 
@@ -38,9 +38,21 @@ Finished desktop version of my portfolio
 ## Built With
 
 - HTML
-- CSS
-- Linter
+- CSS (using Flex and Grid)
 
+## Live Demo
+
+[Live Demo Link](https://livedemo.com)
+
+## Getting Started
+
+**To clone this project**
+**Run command: $git clone [name of the repo]**
+**or press the green Code button in the upper right corner and choose to download from the Download ZIP link.**
+
+### Prerequisites
+
+- Code editor (VS Code, Sublime, Atom)
 
 
 ## Authors
@@ -52,4 +64,11 @@ Finished desktop version of my portfolio
 - LinkedIn:https://www.linkedin.com/in/bogdan-stojanovic-97829b136/
 
 
+## Show your support
+
+Give a ⭐️ if you like this project!
+
+## 📝 License
+
+This project is [MIT](./MIT.md) licensed.
 
