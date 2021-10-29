@@ -3,6 +3,7 @@ header {
   margin-bottom: 130px;
   display: flex;
   flex-direction: column;
+  justify-content: flex-start;
   align-items: center;
 }
 
@@ -16,6 +17,7 @@ header {
   padding-bottom: 0;
   display: none;
 }
+
 .nav-list a {
   text-decoration: none;
   font-family: Inter, sans-serif;
@@ -28,7 +30,9 @@ header {
 .navbar {
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  background-color: #fff;
+  width: 100%;
+  margin: 0;
   background: transparent;
 }
 
@@ -137,7 +141,6 @@ ul li {
 }
 
 .grid {
-  
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(16rem, 0,3rem));
   grid-gap: 15px ;
@@ -326,6 +329,8 @@ ul li {
   color: #36b37e;
 }
 
+
+
 .form-text {
   text-align: center;
   font-family: Inter, sans-serif;
@@ -396,7 +401,26 @@ ul li {
   color: #42526e;
 }
 
-@media only screen and (min-width: 768px) {
+ .bot-nav {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin: auto;
+}
+
+.bot-nav  ul{
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+}
+
+.bot-nav p {
+  margin: 0;
+} 
+
+@media only screen and (min-width: 820px) {
 
   .navbar {
     justify-content: center;
@@ -408,12 +432,15 @@ ul li {
     justify-content: center;
     margin-top: 5px;
   }
+
   .nav-list {
     padding-left: 0;
   }
+
   .logo {
     display: none;
   }
+
   .hamburger {
     display: none;
   }
@@ -448,10 +475,12 @@ ul li {
     background-size: cover;
     height: 900px;
   }
+
   .hero {
     background-image: none;
     width: 900px;
   }
+
   .hero p {
     font-family: Inter,sans-serif;
     font-style: normal;
@@ -471,9 +500,13 @@ ul li {
     margin: 80px auto;
   }
 
+  .last-section {
+    width: 369px;
+    height: 352px;
+  }
+
   .about {
-    max-width: 1171px;
-    height: 808px;
+    width: 100%;
     margin: auto;
   }
   .about p {
@@ -481,26 +514,17 @@ ul li {
     height: 96px;
   }
 
-}
-
-@media only screen and (min-width: 1180px) {
-  .grid {
-    display: grid;
-    grid-template-columns:repeat(3, 1fr) ;
-    grid-gap: 30px;
-    justify-content: space-around;
-    align-items: center;
-    margin: 80px auto;
+  .email-form {
+    display: none;
   }
 
   .form {
-    width: 1171px;
-    height: 490px;
     display: flex;
     flex-direction: row;
     text-align: center;
     align-items: flex-start;
     margin: auto;
+    justify-content: space-around;
   }
 
   .text {
@@ -517,12 +541,113 @@ ul li {
     font-size: 30px;
   }
 
+  .bot-nav {
+    display: flex;
+    width: 100%;
+    height: 72px;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .bot-nav  ul{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+  }
+
+  .bot-nav p {
+    margin: 0;
+  }
+
+}
+
+@media only screen and (min-width: 1180px) {
+  .grid {
+    display: grid;
+    grid-template-columns:repeat(3, 1fr) ;
+    grid-gap: 30px;
+    justify-content: space-around;
+    align-items: center;
+    margin: 80px auto;
+  }
+
+  .form {
+    width: 100%;
+    height: 790px;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    align-items: flex-start;
+    margin: auto;
+    justify-content: space-around;
+    background-image: url(images/form-pic.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    justify-content: center;
+  }
+
+  .big-pic {
+    z-index: -1;
+  }
+
+  .border-top {
+    height: 1px;
+    background: #dfe1e6;
+  }
+
+  .text {
+    width: 463px;
+    height: 256px;
+  }
+  
+  .contact-form {
+    width: 684px;
+    height: 330px;
+    align-items: flex-start;
+    margin-left: 20px;
+  }
+
+  .form-text {
+    font-size: 30px;
+  }
+
   .email-form {
     display: none;
   }
 
   .bot-nav  ul{
     margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+  }
+
+  .bot-nav p {
+    margin: 0;
+  }
+
+  .bot-nav {
+    display: flex;
+    width: 1440px;
+    height: 72px;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #email {
+    width: 684px;
+  }
+
+  .fullName {
+    width: 684px;
+  }
+
+  .textArea {
+    width: 684px;
   }
 
 }
