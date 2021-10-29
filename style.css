@@ -145,7 +145,7 @@ p {
 
 .grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(16rem, 0,3rem));
+  grid-template-columns: repeat(auto-fit, minmax(16rem, 0, 3rem));
   grid-gap: 15px;
   justify-content: center;
   margin: 80px auto;
@@ -421,7 +421,6 @@ p {
 }
 
 @media only screen and (min-width: 820px) {
-
   .navbar {
     justify-content: center;
   }
@@ -550,7 +549,6 @@ p {
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    width: 100%;
     border-top: 1px solid #dfe1e6;
   }
 
@@ -596,14 +594,14 @@ p {
     width: 463px;
     height: 256px;
   }
-  
+
   .contact-form {
     width: 684px;
     height: 330px;
     align-items: flex-start;
     margin-left: 20px;
   }
-  
+
   .form-text {
     font-size: 30px;
   }
