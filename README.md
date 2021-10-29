@@ -42,7 +42,7 @@ Finished desktop version of my portfolio
 
 ## Live Demo
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link](https://kakarrot92.github.io/Portfolio-setup-and-mobile-version-skeleton/)
 
 ## Getting Started
 
