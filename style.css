@@ -406,7 +406,6 @@ ul li {
   justify-content: center;
   flex-direction: column;
   align-items: center;
-  margin: auto;
 }
 
 .bot-nav  ul{
@@ -420,10 +419,17 @@ ul li {
   margin: 0;
 } 
 
+
+
 @media only screen and (min-width: 820px) {
 
   .navbar {
     justify-content: center;
+  }
+
+  .bot-nav {
+    width: 100%;
+    border-top: 1px solid #dfe1e6;;
   }
 
   .nav-list li {
@@ -525,6 +531,7 @@ ul li {
     align-items: flex-start;
     margin: auto;
     justify-content: space-around;
+    margin-top: 100px;
   }
 
   .text {
@@ -587,15 +594,7 @@ ul li {
     background-size: cover;
     background-position: bottom;
     justify-content: center;
-  }
-
-  .big-pic {
-    z-index: -1;
-  }
-
-  .border-top {
-    height: 1px;
-    background: #dfe1e6;
+    margin-top: 100px;
   }
 
   .text {
@@ -631,7 +630,6 @@ ul li {
 
   .bot-nav {
     display: flex;
-    width: 1440px;
     height: 72px;
     justify-content: center;
     flex-direction: column;
