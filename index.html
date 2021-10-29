@@ -11,18 +11,23 @@
     <header>
       <nav class="navbar">
         <div class="logo"><a>Welcome</a></div>
+        <ul class="nav-list">
+          <a href=""><li>Portfolio</li></a>
+          <a href=""><li>About</li></a>
+          <a href=""><li>Contact</li></a>
+        </ul>
         <img class="hamburger" src="images/icon-menu.png" alt="" />
       </nav>
       <section class="hero">
         <h1 class="first">Hey there. I’m Bogdan</h1>
-        <h1 class="second">I’m a software developer</h1>
+        <h2 class="second">I’m a software developer</h2>
         <p>
           I can help you build a product , feature or website Look through some
           of my work and experience! If you like what you see and have a project
           you need coded, don’t hestiate to contact me.
         </p>
       </section>
-      <ul class="links">
+      <ul class="links-header">
         <li>
           <a class="twitter" href="https://twitter.com/kakarrot1992"
             ><img src="images/twitter.svg" alt="twitter"
@@ -44,11 +49,11 @@
           <a href=""><img src="images/angellist.svg" alt="angellist" /></a>
         </li>
       </ul>
+     <form action="#work-section" class="arrow" action=""><button type="submit" class="arrow-section"><img src="images/arrow.png" alt=""></button></form>
     </header>
     <!-- WORK SECTION-->
-    <div class="arrow-section">
-    </div>
-    <section class="work-section">
+    
+    <section id="work-section" class="work-section">
       <h2 class="recent-work">
         My Recent <br />
         Works
@@ -168,75 +173,88 @@
             </form>
           </div>
         </div>
-        <section class="about">
-          <img class="float-1" src="images/float-1.png" alt="">
-            <h2>About Me</h2>
-          <p>
-            I can help you build a product , feature or website Look through
-            some of my work and experience! If you like what you see and have a
-            project you need coded, don’t hestiate to contact me.
-          </p>
-          <div class="img-float">
-            <img class="float-2" src="images/float-2.png" alt="">
-          </div>
-          <img class="card-btn" src="/images/portfolio-btn.png" alt="">
-        </section>
-        <div class="last-section">
-          <img src="./images/cirlce.png" alt="" />
-          <ul class="tittle">
-            <li><h3 class="lang">Languages</h3></li>
-          </ul>
-          <ul class="list">
-            <li>JavaScript</li>
-            <li>Ruby</li>
-            <li>HTML</li>
-            <li>CSS</li>
-          </ul>
-        </div>
-        <div class="last-section">
-          <img src="./images/icon-2.png" alt="" />
-          <ul class="tittle">
-            <li><h3 class="lang">Languages</h3></li>
-          </ul>
-          <ul class="list">
-            <li>Bootstrap</li>
-            <li>Ruby on Rails</li>
-            <li>RSpec</li>
-            <li>Capybara</li>
-            <li>Selenium</li>
-          </ul>
-        </div>
-        <div class="last-section">
-          <img src="./images/thunder.png" alt="" />
-          <ul class="tittle">
-            <li><h3 class="lang">Languages</h3></li>
-          </ul>
-          <ul class="list">
-            <li>Codekit</li>
-            <li>Github</li>
-            <li>Codepen</li>
-            <li>Gitlab</li>
-            <li>Terminal</li>
-          </ul>
-        </div>
       </div>
     </section>
-    <section class="form">
-      <div class="text">
-        <h2 class="form-text">I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.</h2>
-      </div>
-      <form class="contact-form" action="https://formspree.io/f/mdoyvbwr" method="post">
-        <label for="full-name"></label>
-        <input name="full-name" class="fullName" maxlength="30" placeholder="Full name" id="full-name" type="text" required>
-        <br>
-        <label for="email"></label>
-        <input id="email" name="email" type="email" placeholder="Email" required>
-        <br>
-        <label for="text"></label>
-        <textarea placeholder="Enter text here" title="text" class="textArea" name="text" maxlength="500" id="text" cols="30" rows="10" required></textarea>
-        <br>
-        <button class="button" title="submit-btn" type="submit">Get in touch</button>
-      </form>
+
+      <section class="about">
+        <div class="about-text">
+          <img class="float-1" src="images/float-1.png" alt="">
+          <h2>About Me</h2>
+            <p>
+                I can help you build a product , feature or website Look through
+                some of my work and experience! If you like what you see and have a
+                project you need coded, don’t hestiate to contact me.
+            </p>
+            <div class="img-float">
+              <img class="float-2" src="images/float-2.png" alt="">
+            </div>
+          <img class="card-btn" src="images/portfolio-btn.png" alt="">
+        </div>
+        <div class="grid">
+          <div class="last-section">
+            <img src="./images/cirlce.png" alt="" />
+            <ul class="tittle">
+              <li><h3 class="lang">Languages</h3></li>
+            </ul>
+            <ul class="list">
+              <li>JavaScript</li>
+              <li>Ruby</li>
+              <li>HTML</li>
+              <li>CSS</li>
+             </ul>
+          </div>
+          <div class="last-section">
+            <img src="./images/icon-2.png" alt="" />
+            <ul class="tittle">
+              <li><h3 class="lang">Frameworks</h3></li>
+            </ul>
+            <ul class="list">
+              <li>Bootstrap</li>
+              <li>Ruby on Rails</li>
+              <li>RSpec</li>
+              <li>Capybara</li>
+              <li>Selenium</li>
+            </ul>
+          </div>
+          <div class="last-section">
+            <img src="./images/thunder.png" alt="" />
+            <ul class="tittle">
+              <li><h3 class="lang">Skills</h3></li>
+            </ul>
+            <ul class="list">
+                <li>Codekit</li>
+                <li>Github</li>
+                <li>Codepen</li>
+                <li>Gitlab</li>
+                <li>Terminal</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+        
+        <section class="form">
+          <div class="text">
+            <h2 class="form-text">I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.</h2>
+          </div>
+          <form class="contact-form" action="https://formspree.io/f/mdoyvbwr" method="post">
+            <label for="full-name"></label>
+            <input name="full-name" class="fullName" maxlength="30" placeholder="Full name" id="full-name" type="text" required>
+            <br>
+            <label for="email"></label>
+            <input id="email" name="email" type="email" placeholder="Email" required>
+            <br>
+            <label for="text"></label>
+            <textarea placeholder="Enter text here" title="text" class="textArea" name="text" maxlength="500" id="text" cols="30" rows="10" required></textarea>
+            <br>
+            <button class="button" title="submit-btn" type="submit">Get in touch</button>
+          </form>
+        </section>
+        
+        
+    
+
+    
+    <footer class="bot-nav">
       <ul class="links">
         <li>
           <a class="twitter icons" href="https://twitter.com/kakarrot1992"
@@ -257,6 +275,6 @@
         </li>
       </ul>
       <p ><a class="email-form" href="mailto:kakarrot1992@gmail.com">kakarrot1992@gmail.com</a></p>
-    </section>
+    </footer>
   </body>
 </html>
