@@ -171,6 +171,7 @@ p {
 .card:hover {
   transform: scale(1.1);
   box-shadow: 2px 2px 26px 0;
+
 }
 
 .card-body {
@@ -313,6 +314,7 @@ p {
   box-sizing: border-box;
   align-items: center;
   padding: 10px;
+  
 }
 
 .last-section img {
