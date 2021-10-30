@@ -314,7 +314,15 @@ p {
   box-sizing: border-box;
   align-items: center;
   padding: 10px;
+<<<<<<< HEAD
   
+=======
+  transition: transform 0.3s; 
+}
+
+.last-section:hover {
+  transform: scale(1.1);
+>>>>>>> c0b4ce0efc44a22bcabfcf3e8927b2b36bb0c342
 }
 
 .last-section img {
