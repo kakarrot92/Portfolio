@@ -449,14 +449,11 @@ p {
     align-items: center;
     justify-content: center;
     margin-top: 5px;
+    padding-left: 0;
   }
 
   .nav-list li {
     display: inline-block;
-  }
-
-  .nav-list {
-    padding-left: 0;
   }
 
   .logo {
