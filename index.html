@@ -19,13 +19,16 @@
   <body>
     <header>
       <nav class="navbar">
-        <div class="logo"><a>Welcome</a></div>
-        <ul class="nav-list">
-          <a href=""><li>Portfolio</li></a>
-          <a href=""><li>About</li></a>
-          <a href=""><li>Contact</li></a>
+        <div class="logo"><a>Welcome</a>
+          <button class="hamburger">
+            <img src="images/hamburger.svg" alt="" />
+          </button>
+        </div>
+        <ul class="nav-list" id="nav-list">
+          <a href="#work-section"><li>Portfolio</li></a>
+          <a href="#about"><li>About</li></a>
+          <a href="#form"><li>Contact</li></a>
         </ul>
-        <img class="hamburger" src="images/icon-menu.png" alt="" />
       </nav>
       <section class="hero">
         <h1 class="first">Hey there. I’m Bogdan</h1>
@@ -185,7 +188,7 @@
       </div>
     </section>
 
-      <section class="about">
+      <section class="about" id="about">
         <div class="about-text">
           <img class="float-1" src="images/float-1.png" alt="">
           <h2>About Me</h2>
@@ -241,7 +244,7 @@
         </div>
       </section>
         
-        <section class="form">
+        <section class="form" id="form">
           <div class="text">
             <h2 class="form-text">I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.</h2>
           </div>
