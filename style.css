@@ -8,8 +8,15 @@ header {
 }
 
 .nav-list {
-  display: flex;
-  justify-content: center;
+  display: none;
+}
+
+.hamburger {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  display: block;
 }
 
 ul li {
@@ -37,6 +44,7 @@ ul li {
   width: 100%;
   margin: 0;
   background: transparent;
+  flex-direction: column;
 }
 
 .logo {
@@ -45,6 +53,8 @@ ul li {
   font-weight: 600;
   font-size: 20px;
   line-height: 28px;
+  display: flex;
+  justify-content: space-between;
 }
 
 .first {
@@ -434,15 +444,15 @@ p {
 }
 
 @media only screen and (min-width: 992px) {
-  .navbar {
-    justify-content: center;
-  }
-
-  .nav-list li {
+  .nav-list {
     display: flex;
     align-items: center;
     justify-content: center;
     margin-top: 5px;
+  }
+
+  .nav-list li {
+    display: inline-block;
   }
 
   .nav-list {
