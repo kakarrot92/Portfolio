@@ -18,16 +18,17 @@
   </head>
   <body>
     <header>
-      <nav class="navbar">
+      <nav class="navbar" id="navbar">
         <div class="logo"><a>Welcome</a>
-          <button class="hamburger">
-            <img src="images/hamburger.svg" alt="" />
+          <button type="button" id="hamburger" class="hamburger">
+            <img src="images/hamburger.svg" alt="hamburger menu" />
           </button>
         </div>
         <ul class="nav-list" id="nav-list">
-          <a href="#work-section"><li>Portfolio</li></a>
-          <a href="#about"><li>About</li></a>
-          <a href="#form"><li>Contact</li></a>
+          <li><img src="images/close-butt.svg" class="close" id="close" alt="close button"></li>
+          <li><a href="#work-section">Portfolio</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#form">Contact</a></li>
         </ul>
       </nav>
       <section class="hero">
@@ -61,7 +62,7 @@
           <a href=""><img src="images/angellist.svg" alt="angellist" /></a>
         </li>
       </ul>
-     <form action="#work-section" class="arrow" action=""><button type="submit" class="arrow-section"><img src="images/arrow.png" alt=""></button></form>
+     <form action="#work-section" class="arrow"><button type="submit" class="arrow-section"><img src="images/arrow.png" alt=""></button></form>
     </header>
     <!-- WORK SECTION-->
     
@@ -73,7 +74,7 @@
       <div class="grid">
         <div class="card">
           <div class="card-body">
-            <ul class="tech">
+            <div class="tech">
               <ul class="tittle">
                 <li><h2>Multi-Post Stories</h2></li>
                 <li><h2>Gain+Glory</h2></li>
@@ -84,7 +85,7 @@
                 <li>JavaScript</li>
                 <li>HTML</li>
               </ul>
-            </ul>
+            </div>
             <form action="#" method="get">
               <button type="submit" class="button">See project</button>
             </form>
@@ -92,7 +93,7 @@
         </div>
         <div class="card">
           <div class="card-body">
-            <ul class="tech">
+            <div class="tech">
               <ul class="tittle">
                 <li><h2>Multi-Post Stories</h2></li>
                 <li><h2>Gain+Glory</h2></li>
@@ -103,7 +104,7 @@
                 <li>JavaScript</li>
                 <li>HTML</li>
               </ul>
-            </ul>
+            </div>
             <form action="#" method="get">
               <button type="submit" class="button">See project</button>
             </form>
@@ -111,7 +112,7 @@
         </div>
         <div class="card">
           <div class="card-body">
-            <ul class="tech">
+            <div class="tech">
               <ul class="tittle">
                 <li><h2>Multi-Post Stories</h2></li>
                 <li><h2>Gain+Glory</h2></li>
@@ -122,7 +123,7 @@
                 <li>JavaScript</li>
                 <li>HTML</li>
               </ul>
-            </ul>
+            </div>
             <form action="#" method="get">
               <button type="submit" class="button">See project</button>
             </form>
@@ -130,7 +131,7 @@
         </div>
         <div class="card">
           <div class="card-body">
-            <ul class="tech">
+            <div class="tech">
               <ul class="tittle">
                 <li><h2>Multi-Post Stories</h2></li>
                 <li><h2>Gain+Glory</h2></li>
@@ -141,7 +142,7 @@
                 <li>JavaScript</li>
                 <li>HTML</li>
               </ul>
-            </ul>
+            </div>
             <form action="#" method="get">
               <button type="submit" class="button">See project</button>
             </form>
@@ -149,7 +150,7 @@
         </div>
         <div class="card">
           <div class="card-body">
-            <ul class="tech">
+            <div class="tech">
               <ul class="tittle">
                 <li><h2>Multi-Post Stories</h2></li>
                 <li><h2>Gain+Glory</h2></li>
@@ -160,7 +161,7 @@
                 <li>JavaScript</li>
                 <li>HTML</li>
               </ul>
-            </ul>
+            </div>
             <form action="#" method="get">
               <button type="submit" class="button">See project</button>
             </form>
@@ -168,7 +169,7 @@
         </div>
         <div class="card">
           <div class="card-body">
-            <ul class="tech">
+            <div class="tech">
               <ul class="tittle">
                 <li><h2>Multi-Post Stories</h2></li>
                 <li><h2>Gain+Glory</h2></li>
@@ -179,7 +180,7 @@
                 <li>JavaScript</li>
                 <li>HTML</li>
               </ul>
-            </ul>
+            </div>
             <form action="#" method="get">
               <button type="submit" class="button">See project</button>
             </form>
@@ -288,5 +289,6 @@
       </ul>
       <p ><a class="email-form" href="mailto:kakarrot1992@gmail.com">kakarrot1992@gmail.com</a></p>
     </footer>
+    <script src="app.js"></script>
   </body>
 </html>

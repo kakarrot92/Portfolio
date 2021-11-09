@@ -1,4 +1,8 @@
 
+body {
+  overflow-x: hidden;
+}
+
 header {
   margin-bottom: 130px;
   display: flex;
@@ -8,7 +12,32 @@ header {
 }
 
 .nav-list {
-  display: none;
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100vh;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+  transform: translateX(-100%);
+  transition: transform 0.5s ease-in;
+  padding: 0;
+  margin: 0;
+}
+
+.close {
+  position: absolute;
+  right: 0;
+  top: 0;
+  padding: 20px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.nav-active {
+  transform: translateX(0%);
 }
 
 .hamburger {
@@ -24,9 +53,8 @@ ul li {
 }
 
 .nav-list li {
-  padding: 10px;
-  padding-bottom: 0;
-  display: none;
+  padding: 20px;
+  margin-top: 30px;
 }
 
 .nav-list a {
@@ -34,13 +62,11 @@ ul li {
   font-family: Inter, sans-serif;
   font-style: normal;
   font-weight: 600;
-  font-size: 15px;
+  font-size: 32px;
   line-height: 20px;
 }
 
 .navbar {
-  display: flex;
-  justify-content: space-between;
   width: 100%;
   margin: 0;
   background: transparent;
