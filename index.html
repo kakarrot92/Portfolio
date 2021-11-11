@@ -238,17 +238,19 @@
           <div class="text">
             <h2 class="form-text">I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.</h2>
           </div>
-          <form class="contact-form" action="https://formspree.io/f/mdoyvbwr" method="post">
-            <label for="full-name"></label>
-            <input name="full-name" class="fullName" maxlength="30" placeholder="Full name" id="full-name" type="text" required>
-            <br>
-            <label for="email"></label>
-            <input id="email" name="email" type="email" placeholder="Email" required>
+          <form class="contact-form" id="contact-form" action="https://formspree.io/f/mdoyvbwr" method="post">
+              <label for="full-name"></label>
+              <input name="full-name" class="fullName" maxlength="30" placeholder="Full name" id="full-name" type="text">
+              <br>
+              <!-- <small>Error message</small> -->
+              <label for="email"></label>
+              <input id="email" name="email" type="email" placeholder="Email">
+              <!-- <small>Error message</small> -->
             <br>
             <label for="text"></label>
-            <textarea placeholder="Enter text here" title="text" class="textArea" name="text" maxlength="500" id="text" cols="30" rows="10" required></textarea>
-            <br>
-            <button class="button" title="submit-btn" type="submit">Get in touch</button>
+            <textarea placeholder="Enter text here" title="text" class="textArea" name="text" maxlength="500" id="text" cols="30" rows="10"></textarea>
+            <p id="validateMessage"></p>
+            <button class="button-form" id="form" title="submit-btn" type="submit">Get in touch</button>
           </form>
         </section>
         
@@ -280,5 +282,6 @@
     </footer>
     <script src="app.js" type="module"></script>
     <script src="popup.js" type="module"></script>
+    <script src="form.js" type="module"></script>
   </body>
 </html>

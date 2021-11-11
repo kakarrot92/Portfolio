@@ -254,7 +254,7 @@ p {
   margin: 3px 3px;
 }
 
-.button {
+.button, .button-form{
   width: 122px;
   height: 48px;
   border: none;
@@ -468,6 +468,25 @@ p {
 .bot-nav p {
   margin: 0;
 }
+
+/* form.error input {
+  color: #a7090f;
+}
+
+form.success input {
+  color: #09a752;
+}
+
+ small {
+  color: #0b421a;
+  bottom: 0;
+  left: 0;
+  visibility: hidden;
+}
+
+form.error small {
+  visibility: visible;
+} */
 
 @media only screen and (min-width: 992px) {
   .nav-list {

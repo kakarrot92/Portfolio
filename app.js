@@ -61,7 +61,7 @@ const slideMenu = () => {
       `;
       document.querySelector('body').insertAdjacentElement('beforeend', section)
       // puut your function for close button below
-      closeModal.addEventListener('click', () => {
+      section.querySelector('#close-modal').addEventListener('click', () => {
         document.querySelector('.modal').remove()
       })
       
