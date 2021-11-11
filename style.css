@@ -254,7 +254,8 @@ p {
   margin: 3px 3px;
 }
 
-.button, .button-form{
+.button,
+.button-form {
   width: 122px;
   height: 48px;
   border: none;

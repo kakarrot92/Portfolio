@@ -1,10 +1,11 @@
 import data from './data.js';
+
 const slideMenu = () => {
   const hamburger = document.getElementById('hamburger');
   const navLinks = document.getElementById('nav-list');
   const seeProject = document.querySelectorAll('.button');
-  const closeModal = document.querySelector('.close-modal');
-  const sectionOne = document.querySelector('.modal')
+  // const closeModal = document.querySelector('.close-modal');
+  // const sectionOne = document.querySelector('.modal');
 
   hamburger.addEventListener('click', () => {
     navLinks.classList.toggle('nav-active');
@@ -16,8 +17,8 @@ const slideMenu = () => {
       const {
         url, tittle, technologi1, technologi2, technologi3, text,
       } = myData;
-      
-      let section = document.createElement('section')
+
+      const section = document.createElement('section');
       section.className = 'modal';
       section.innerHTML = `
       <div class="card-modal">
@@ -59,12 +60,11 @@ const slideMenu = () => {
         </div>
       </div>
       `;
-      document.querySelector('body').insertAdjacentElement('beforeend', section)
+      document.querySelector('body').insertAdjacentElement('beforeend', section);
       // puut your function for close button below
       section.querySelector('#close-modal').addEventListener('click', () => {
-        document.querySelector('.modal').remove()
-      })
-      
+        document.querySelector('.modal').remove();
+      });
     });
   });
 
