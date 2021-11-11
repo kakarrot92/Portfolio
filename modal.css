@@ -16,7 +16,7 @@
 
 .close-modal {
   position: absolute;
-  right:45px;
+  right: 45px;
   top: 45px;
 }
 
@@ -38,7 +38,6 @@
 .flex-start {
   display: flex;
   flex-direction: column;
-  /* justify-content: space-between; */
 }
 
 .modal-header {
@@ -66,7 +65,7 @@
   align-items: flex-start;
 }
 
-.technologys ul{
+.technologys ul {
   display: flex;
   padding: 0;
   flex-wrap: wrap;
@@ -92,7 +91,8 @@
   gap: 20px;
 }
 
-.button-modal, .button-modal-desktop{
+.button-modal,
+.button-modal-desktop {
   width: 150px;
   height: 48px;
   border: none;
@@ -108,21 +108,23 @@
   color: #fff;
 }
 
-.button-modal:hover, .button-modal-desktop:hover {
+.button-modal-desktop {
+  display: none;
+}
+
+.button-modal:hover,
+.button-modal-desktop:hover {
   box-shadow: 0 8px 16px rgba(54, 179, 127, 0.24);
 }
 
-.button-modal:active, .button-modal-desktop:hover {
+.button-modal:active,
+.button-modal-desktop:hover {
   background: #008552;
 }
 
 .button-modal a {
   text-decoration: none;
   color: #fff;
-}
-
-.button-modal-desktop {
-  display: none;
 }
 
 @media only screen and (min-width: 768px) {
@@ -136,7 +138,6 @@
     color: #fff;
     text-align: center;
   }
-
 }
 
 @media only screen and (min-width: 1180px) {
@@ -174,5 +175,4 @@
   .technologys ul li {
     font-size: 20px;
   }
-
 }
