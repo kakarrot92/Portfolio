@@ -10,7 +10,7 @@ export default [
   },
   {
     id: 'two',
-    url: '/images/popup-pic.png',
+    url: 'images/popup-pic.png',
     tittle: 'Keeping track of hundreds of components',
     technologi1: 'Ruby on rails',
     technologi2: 'Css',
@@ -19,7 +19,7 @@ export default [
   },
   {
     id: 'three',
-    url: '/images/popup-pic.png',
+    url: 'images/popup-pic.png',
     tittle: 'Keeping track of hundreds of components',
     technologi1: 'Ruby on rails',
     technologi2: 'Css',
@@ -28,7 +28,7 @@ export default [
   },
   {
     id: 'four',
-    url: '/images/popup-pic.png',
+    url: 'images/popup-pic.png',
     tittle: 'Keeping track of hundreds of components',
     technologi1: 'Ruby on rails',
     technologi2: 'Css',
@@ -37,7 +37,7 @@ export default [
   },
   {
     id: 'five',
-    url: '/images/popup-pic.png',
+    url: 'images/popup-pic.png',
     tittle: 'Keeping track of hundreds of components',
     technologi1: 'Ruby on rails',
     technologi2: 'Css',
@@ -46,7 +46,7 @@ export default [
   },
   {
     id: 'six',
-    url: '/images/popup-pic.png',
+    url: 'images/popup-pic.png',
     tittle: 'Keeping track of hundreds of components',
     technologi1: 'Ruby on rails',
     technologi2: 'Css',

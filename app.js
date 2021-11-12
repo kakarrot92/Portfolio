@@ -20,9 +20,11 @@ const slideMenu = () => {
       section.className = 'modal';
       section.innerHTML = `
       <div class="card-modal">
+      <div class="close-modal">
+        <img src="./images/close-butt.svg"  id="close-modal" alt="close button">
+      </div>
+        <img src="${url}" class="popup-img">
           <div class="modal-body">
-          <img src="./images/close-butt.svg" class="close-modal" id="close-modal" alt="close button">
-            <img src="${url}" class="popup-img">
           <div class= "flex-start">
             <div class= "desktop-header">
               <div class="desktop-h2">
@@ -58,9 +60,11 @@ const slideMenu = () => {
         </div>
       </div>
       `;
+      document.querySelector('main').style.filter = 'blur(5px)';
       document.querySelector('body').insertAdjacentElement('beforeend', section);
       // put your function for close button below
       section.querySelector('#close-modal').addEventListener('click', () => {
+        document.querySelector('main').style.filter = 'blur(0)';
         document.querySelector('.modal').remove();
       });
     });
