@@ -4,8 +4,6 @@ const slideMenu = () => {
   const hamburger = document.getElementById('hamburger');
   const navLinks = document.getElementById('nav-list');
   const seeProject = document.querySelectorAll('.button');
-  // const closeModal = document.querySelector('.close-modal');
-  // const sectionOne = document.querySelector('.modal');
 
   hamburger.addEventListener('click', () => {
     navLinks.classList.toggle('nav-active');
