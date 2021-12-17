@@ -205,6 +205,25 @@ p {
   box-shadow: 2px 2px 6px 0;
 }
 
+#card-1 {
+  background-image: url(images/FirstCapstone.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-position: center;
+}
+
+#card-2 {
+  background-image: url(images/AwesomeBooks.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-position: center;
+}
+
+.card a {
+  text-decoration: none;
+  color: #fff;
+}
+
 .card:hover {
   transform: scale(1.1);
   box-shadow: 2px 2px 26px 0;
@@ -490,12 +509,19 @@ form.error small {
 } */
 
 @media only screen and (min-width: 992px) {
+  .navbar {
+    width: unset;
+  }
+
   .nav-list {
     display: flex;
     align-items: center;
+    position: relative;
     justify-content: center;
+    flex-direction: column;
     margin-top: 5px;
     padding-left: 0;
+    height: unset;
   }
 
   .nav-list li {
@@ -503,6 +529,10 @@ form.error small {
   }
 
   .logo {
+    display: none;
+  }
+
+  .close {
     display: none;
   }
 
