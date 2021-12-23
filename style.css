@@ -510,7 +510,7 @@ form.error small {
 
 @media only screen and (min-width: 992px) {
   .navbar {
-    width: unset;
+    width: 30%;
   }
 
   .nav-list {
@@ -518,10 +518,11 @@ form.error small {
     align-items: center;
     position: relative;
     justify-content: center;
-    flex-direction: column;
+    flex-direction: row;
     margin-top: 5px;
     padding-left: 0;
     height: unset;
+    transform: translate(0);
   }
 
   .nav-list li {
