@@ -529,6 +529,10 @@ form.error small {
     display: inline-block;
   }
 
+  .nav-list li a {
+    font-size: 1rem;
+  }
+
   .logo {
     display: none;
   }
